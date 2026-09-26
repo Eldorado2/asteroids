@@ -22,8 +22,8 @@ def main() -> None:
 
     Player.containers = (updatable, drawable)
 
-    # Player Object
-    Player(SCREEN_WIDTH / 2, SCREEN_HEIGHT / 2)
+    # Player Object to be used later
+    _player = Player(SCREEN_WIDTH / 2, SCREEN_HEIGHT / 2)
 
     # Game Loop
     while True:
